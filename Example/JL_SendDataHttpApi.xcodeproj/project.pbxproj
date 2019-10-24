@@ -41,7 +41,7 @@
 		37A7BD4E2B494310389A97BE /* Pods-JL_SendDataHttpApi_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JL_SendDataHttpApi_Tests.release.xcconfig"; path = "Target Support Files/Pods-JL_SendDataHttpApi_Tests/Pods-JL_SendDataHttpApi_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3B40F36B538554C1E9268467 /* Pods-JL_SendDataHttpApi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JL_SendDataHttpApi_Example.release.xcconfig"; path = "Target Support Files/Pods-JL_SendDataHttpApi_Example/Pods-JL_SendDataHttpApi_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3C7CAED961386CB027FBFD28 /* Pods-JL_SendDataHttpApi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JL_SendDataHttpApi_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JL_SendDataHttpApi_Tests/Pods-JL_SendDataHttpApi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		44980376E5067E7DDA971E58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		44980376E5067E7DDA971E58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JL_SendDataHttpApi_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JL_SendDataHttpApi_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0ADC273620E859844F11323 /* JL_SendDataHttpApi.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JL_SendDataHttpApi.podspec; path = ../JL_SendDataHttpApi.podspec; sourceTree = "<group>"; };
-		E78EE2A1BF42588F3D5B0BE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D0ADC273620E859844F11323 /* JL_SendDataHttpApi.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JL_SendDataHttpApi.podspec; path = ../JL_SendDataHttpApi.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E78EE2A1BF42588F3D5B0BE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FAF14DD44C70D258AB9ADE97 /* Pods_JL_SendDataHttpApi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JL_SendDataHttpApi_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF79B952A341A4CA42B62355 /* Pods_JL_SendDataHttpApi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JL_SendDataHttpApi_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				3C7CAED961386CB027FBFD28 /* Pods-JL_SendDataHttpApi_Tests.debug.xcconfig */,
 				37A7BD4E2B494310389A97BE /* Pods-JL_SendDataHttpApi_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JL_SendDataHttpApi'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of JL_SendDataHttpApi.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JL_SendDataHttpApi/Classes/**/*'
+  s.source_files = 'JL_SendDataHttpApi/Classes/DPMobileSDK.framework/Headers/*.{h}'
   
+  s.vendored_frameworks = 'JL_SendDataHttpApi/Classes/DPMobileSDK.framework'
+
+  s.public_header_files = 'JL_SendDataHttpApi/Classes/DPMobileSDK.framework/Headers/DPMobileSDK.h'
+  
+
   # s.resource_bundles = {
   #   'JL_SendDataHttpApi' => ['JL_SendDataHttpApi/Assets/*.png']
   # }
