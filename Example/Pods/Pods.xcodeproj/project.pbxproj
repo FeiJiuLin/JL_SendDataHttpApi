@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CD323B6B25EC4E6D0504FD3D29AC360 /* Pods-JL_SendDataHttpApi_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17509BBA0931A28C932CDB217B73E67B /* Pods-JL_SendDataHttpApi_Tests-dummy.m */; };
+		50B5456F42C6F51A47078A1ED62A17E9 /* Pods-JL_SendDataHttpApi_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4409963A7DC9DEA6B4838829DEDE14 /* Pods-JL_SendDataHttpApi_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8571E6D3A18E7A867BFCB95BEF77725D /* Pods-JL_SendDataHttpApi_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B990B5F3A86C447A2D9C460F46411DB /* Pods-JL_SendDataHttpApi_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C4FC227395D9DFD8BC27B073E7FD6BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A0F1FFF11C1DC81FF847D9FB541C504A /* JL_SendDataHttpApi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20356FB6092E63FB7AF4F63417709F8A /* JL_SendDataHttpApi-dummy.m */; };
+		A26490CE372978365F13D375B126CD6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C126322D73C91A1ED4D721A69F256F05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CA1512CE4FF88292A2E0E9CE9994CE18 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F7E0A4AD992BCD609A5AEF606E3C5F /* ReplaceMe.m */; };
+		CD98791E6109812A29258AFBB6888768 /* Pods-JL_SendDataHttpApi_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D41A755DA7F7C32219D8B30B620538FD /* Pods-JL_SendDataHttpApi_Example-dummy.m */; };
+		E22F801A95995BFF7E8B10ACAFE85590 /* JL_SendDataHttpApi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA82EC7CAD5889493F9D2C35EF02C5F /* JL_SendDataHttpApi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		249AF7BCDC2E99B38662E8BBE2426910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9C1F1180D4BAE596A6FD870CF3EFEE4;
+			remoteInfo = "Pods-JL_SendDataHttpApi_Example";
+		};
+		EE4A98F3ED36AD0C7D5FCF9DDC01C4F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2E9B12A56963AA1EAD6563DC6FFFF2;
+			remoteInfo = JL_SendDataHttpApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B5EA47ABA0879DDD9CB8348571A9743 /* Pods-JL_SendDataHttpApi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JL_SendDataHttpApi_Example.release.xcconfig"; sourceTree = "<group>"; };
+		17509BBA0931A28C932CDB217B73E67B /* Pods-JL_SendDataHttpApi_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JL_SendDataHttpApi_Tests-dummy.m"; sourceTree = "<group>"; };
+		20356FB6092E63FB7AF4F63417709F8A /* JL_SendDataHttpApi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JL_SendDataHttpApi-dummy.m"; sourceTree = "<group>"; };
+		23593B681B7D13382DCA1E1EA9B0EA64 /* Pods-JL_SendDataHttpApi_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JL_SendDataHttpApi_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		248534138912DECCA3346B782C45A3C5 /* Pods-JL_SendDataHttpApi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JL_SendDataHttpApi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2964957125868FA9B395EE17F67B3F66 /* JL_SendDataHttpApi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JL_SendDataHttpApi.xcconfig; sourceTree = "<group>"; };
+		3060E475D89D7C87CDD0483C2AA55E00 /* Pods-JL_SendDataHttpApi_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JL_SendDataHttpApi_Example-Info.plist"; sourceTree = "<group>"; };
+		31A7535019FFC57E1DF4BDBD8AFFF244 /* JL_SendDataHttpApi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JL_SendDataHttpApi.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3DA82EC7CAD5889493F9D2C35EF02C5F /* JL_SendDataHttpApi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JL_SendDataHttpApi-umbrella.h"; sourceTree = "<group>"; };
+		4C4409963A7DC9DEA6B4838829DEDE14 /* Pods-JL_SendDataHttpApi_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JL_SendDataHttpApi_Tests-umbrella.h"; sourceTree = "<group>"; };
+		60C73E82EF505943E591C76D807D9D63 /* JL_SendDataHttpApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JL_SendDataHttpApi.framework; path = JL_SendDataHttpApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF6209E7C30926973E28669C7AF98F3 /* Pods-JL_SendDataHttpApi_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JL_SendDataHttpApi_Example.modulemap"; sourceTree = "<group>"; };
+		77AD748043904E566C001B389F57EBF2 /* Pods-JL_SendDataHttpApi_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JL_SendDataHttpApi_Tests-Info.plist"; sourceTree = "<group>"; };
+		7B6C8A664DEE31BCA69DE25A3B5E770F /* Pods_JL_SendDataHttpApi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JL_SendDataHttpApi_Tests.framework; path = "Pods-JL_SendDataHttpApi_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		809CDCAF43943A3B091BCD2699BD226C /* Pods-JL_SendDataHttpApi_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JL_SendDataHttpApi_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		80FC3864BA1530B0FB2335398E227795 /* Pods-JL_SendDataHttpApi_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JL_SendDataHttpApi_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		858811E5D948F58561C8E2911BA2D8FD /* Pods-JL_SendDataHttpApi_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JL_SendDataHttpApi_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96ACF43C3596A2EFE3DE3968F61B97B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9B990B5F3A86C447A2D9C460F46411DB /* Pods-JL_SendDataHttpApi_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JL_SendDataHttpApi_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A326248F0EB04556FC9D6A1D5841C71F /* Pods-JL_SendDataHttpApi_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JL_SendDataHttpApi_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A3F7E0A4AD992BCD609A5AEF606E3C5F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JL_SendDataHttpApi/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		B22310A7E743AA1CCD39DD0FFDAFE08F /* Pods_JL_SendDataHttpApi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JL_SendDataHttpApi_Example.framework; path = "Pods-JL_SendDataHttpApi_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0AA55A80B4AFF00056440E0F008342 /* JL_SendDataHttpApi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JL_SendDataHttpApi-Info.plist"; sourceTree = "<group>"; };
+		CCC497885EF11AC6B48CDD9D9DBC37A5 /* Pods-JL_SendDataHttpApi_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JL_SendDataHttpApi_Tests.modulemap"; sourceTree = "<group>"; };
+		D1ADF19F6D4F72A6A8108C7AC7141977 /* Pods-JL_SendDataHttpApi_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JL_SendDataHttpApi_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D41A755DA7F7C32219D8B30B620538FD /* Pods-JL_SendDataHttpApi_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JL_SendDataHttpApi_Example-dummy.m"; sourceTree = "<group>"; };
+		DB60EF3C6CB905B357001C001A90D2C2 /* Pods-JL_SendDataHttpApi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JL_SendDataHttpApi_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DC5F9694EBE0F2E6B0C29B3767FCAC3E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DE1A6672ADD86CA98753FDC63BE88054 /* JL_SendDataHttpApi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JL_SendDataHttpApi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F2B7F210AC0789C7E4083CF8AAE1D6BA /* JL_SendDataHttpApi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JL_SendDataHttpApi-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25395EE3B7FA377F0BC69BB4FF43EBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C126322D73C91A1ED4D721A69F256F05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE662C9825BC0A149F912C126FF732A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26490CE372978365F13D375B126CD6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB97D0298198BED424F674AA4BB2351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4FC227395D9DFD8BC27B073E7FD6BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0098219DD5FDF3C2F2FE276CDCE10BE4 /* Pods-JL_SendDataHttpApi_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6FF6209E7C30926973E28669C7AF98F3 /* Pods-JL_SendDataHttpApi_Example.modulemap */,
+				D1ADF19F6D4F72A6A8108C7AC7141977 /* Pods-JL_SendDataHttpApi_Example-acknowledgements.markdown */,
+				809CDCAF43943A3B091BCD2699BD226C /* Pods-JL_SendDataHttpApi_Example-acknowledgements.plist */,
+				D41A755DA7F7C32219D8B30B620538FD /* Pods-JL_SendDataHttpApi_Example-dummy.m */,
+				A326248F0EB04556FC9D6A1D5841C71F /* Pods-JL_SendDataHttpApi_Example-frameworks.sh */,
+				3060E475D89D7C87CDD0483C2AA55E00 /* Pods-JL_SendDataHttpApi_Example-Info.plist */,
+				9B990B5F3A86C447A2D9C460F46411DB /* Pods-JL_SendDataHttpApi_Example-umbrella.h */,
+				DB60EF3C6CB905B357001C001A90D2C2 /* Pods-JL_SendDataHttpApi_Example.debug.xcconfig */,
+				0B5EA47ABA0879DDD9CB8348571A9743 /* Pods-JL_SendDataHttpApi_Example.release.xcconfig */,
+			);
+			name = "Pods-JL_SendDataHttpApi_Example";
+			path = "Target Support Files/Pods-JL_SendDataHttpApi_Example";
+			sourceTree = "<group>";
+		};
+		0DFECCF330752BEFD7D3357E087C15CF /* Pods-JL_SendDataHttpApi_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC497885EF11AC6B48CDD9D9DBC37A5 /* Pods-JL_SendDataHttpApi_Tests.modulemap */,
+				858811E5D948F58561C8E2911BA2D8FD /* Pods-JL_SendDataHttpApi_Tests-acknowledgements.markdown */,
+				80FC3864BA1530B0FB2335398E227795 /* Pods-JL_SendDataHttpApi_Tests-acknowledgements.plist */,
+				17509BBA0931A28C932CDB217B73E67B /* Pods-JL_SendDataHttpApi_Tests-dummy.m */,
+				77AD748043904E566C001B389F57EBF2 /* Pods-JL_SendDataHttpApi_Tests-Info.plist */,
+				4C4409963A7DC9DEA6B4838829DEDE14 /* Pods-JL_SendDataHttpApi_Tests-umbrella.h */,
+				248534138912DECCA3346B782C45A3C5 /* Pods-JL_SendDataHttpApi_Tests.debug.xcconfig */,
+				23593B681B7D13382DCA1E1EA9B0EA64 /* Pods-JL_SendDataHttpApi_Tests.release.xcconfig */,
+			);
+			name = "Pods-JL_SendDataHttpApi_Tests";
+			path = "Target Support Files/Pods-JL_SendDataHttpApi_Tests";
+			sourceTree = "<group>";
+		};
+		0F0C97DE50DA51EAC4DA438A5B8376CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C73E82EF505943E591C76D807D9D63 /* JL_SendDataHttpApi.framework */,
+				B22310A7E743AA1CCD39DD0FFDAFE08F /* Pods_JL_SendDataHttpApi_Example.framework */,
+				7B6C8A664DEE31BCA69DE25A3B5E770F /* Pods_JL_SendDataHttpApi_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		243471B9AEBA749A7FDE9991D8F97DC5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EEEB0B9B6B31A5842CD6F04BD75F23B /* JL_SendDataHttpApi */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		536641E8B5FB14DA0C413C4042B5074F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A6672ADD86CA98753FDC63BE88054 /* JL_SendDataHttpApi.podspec */,
+				DC5F9694EBE0F2E6B0C29B3767FCAC3E /* LICENSE */,
+				96ACF43C3596A2EFE3DE3968F61B97B2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5EEEB0B9B6B31A5842CD6F04BD75F23B /* JL_SendDataHttpApi */ = {
+			isa = PBXGroup;
+			children = (
+				A3F7E0A4AD992BCD609A5AEF606E3C5F /* ReplaceMe.m */,
+				536641E8B5FB14DA0C413C4042B5074F /* Pod */,
+				F494AFCEB1A7FEE885CE14B55A4A2591 /* Support Files */,
+			);
+			name = JL_SendDataHttpApi;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		99D7F8AF45CE1E2A06FBD32ED0E27225 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0098219DD5FDF3C2F2FE276CDCE10BE4 /* Pods-JL_SendDataHttpApi_Example */,
+				0DFECCF330752BEFD7D3357E087C15CF /* Pods-JL_SendDataHttpApi_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				243471B9AEBA749A7FDE9991D8F97DC5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0F0C97DE50DA51EAC4DA438A5B8376CF /* Products */,
+				99D7F8AF45CE1E2A06FBD32ED0E27225 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F494AFCEB1A7FEE885CE14B55A4A2591 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31A7535019FFC57E1DF4BDBD8AFFF244 /* JL_SendDataHttpApi.modulemap */,
+				2964957125868FA9B395EE17F67B3F66 /* JL_SendDataHttpApi.xcconfig */,
+				20356FB6092E63FB7AF4F63417709F8A /* JL_SendDataHttpApi-dummy.m */,
+				CB0AA55A80B4AFF00056440E0F008342 /* JL_SendDataHttpApi-Info.plist */,
+				F2B7F210AC0789C7E4083CF8AAE1D6BA /* JL_SendDataHttpApi-prefix.pch */,
+				3DA82EC7CAD5889493F9D2C35EF02C5F /* JL_SendDataHttpApi-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JL_SendDataHttpApi";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		293C616C292286F8207A5466D689081B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8571E6D3A18E7A867BFCB95BEF77725D /* Pods-JL_SendDataHttpApi_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2940697A06D4CB0DEF9F83BFBD9721E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B5456F42C6F51A47078A1ED62A17E9 /* Pods-JL_SendDataHttpApi_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E824853E9BC8EF5B8FF727835C4B003E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22F801A95995BFF7E8B10ACAFE85590 /* JL_SendDataHttpApi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FA289F5A30C2DBBF2C7C2D37AD4EA02 /* Pods-JL_SendDataHttpApi_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82112CB3EDFF81EF125B086F09A0A23D /* Build configuration list for PBXNativeTarget "Pods-JL_SendDataHttpApi_Tests" */;
+			buildPhases = (
+				2940697A06D4CB0DEF9F83BFBD9721E1 /* Headers */,
+				D4F1E483570BB00A50B805F994CC0082 /* Sources */,
+				9EB97D0298198BED424F674AA4BB2351 /* Frameworks */,
+				482D66D25F6EF0128B1FD2A94BEA3ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E3A01332A05F01A1F00B5AA501DBD5 /* PBXTargetDependency */,
+			);
+			name = "Pods-JL_SendDataHttpApi_Tests";
+			productName = "Pods-JL_SendDataHttpApi_Tests";
+			productReference = 7B6C8A664DEE31BCA69DE25A3B5E770F /* Pods_JL_SendDataHttpApi_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9C1F1180D4BAE596A6FD870CF3EFEE4 /* Pods-JL_SendDataHttpApi_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25812C3E958FCD45659CD0A4D1101B5 /* Build configuration list for PBXNativeTarget "Pods-JL_SendDataHttpApi_Example" */;
+			buildPhases = (
+				293C616C292286F8207A5466D689081B /* Headers */,
+				2A877084BBD9BF2A29CD127DB234261C /* Sources */,
+				25395EE3B7FA377F0BC69BB4FF43EBCD /* Frameworks */,
+				61A92FCEB7170C117FDC52DA20AD497C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEDF416A44A078F94D093CBFE3FAD727 /* PBXTargetDependency */,
+			);
+			name = "Pods-JL_SendDataHttpApi_Example";
+			productName = "Pods-JL_SendDataHttpApi_Example";
+			productReference = B22310A7E743AA1CCD39DD0FFDAFE08F /* Pods_JL_SendDataHttpApi_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC2E9B12A56963AA1EAD6563DC6FFFF2 /* JL_SendDataHttpApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71DB4422B41D21E401BE2C2D43CFD87 /* Build configuration list for PBXNativeTarget "JL_SendDataHttpApi" */;
+			buildPhases = (
+				E824853E9BC8EF5B8FF727835C4B003E /* Headers */,
+				DE4A8B9AA7B91D712AE0C0FBAD217E29 /* Sources */,
+				5CE662C9825BC0A149F912C126FF732A /* Frameworks */,
+				A65F2D8CE460EF6AD454DFBB9BB4CF77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JL_SendDataHttpApi;
+			productName = JL_SendDataHttpApi;
+			productReference = 60C73E82EF505943E591C76D807D9D63 /* JL_SendDataHttpApi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0F0C97DE50DA51EAC4DA438A5B8376CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC2E9B12A56963AA1EAD6563DC6FFFF2 /* JL_SendDataHttpApi */,
+				B9C1F1180D4BAE596A6FD870CF3EFEE4 /* Pods-JL_SendDataHttpApi_Example */,
+				2FA289F5A30C2DBBF2C7C2D37AD4EA02 /* Pods-JL_SendDataHttpApi_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		482D66D25F6EF0128B1FD2A94BEA3ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A92FCEB7170C117FDC52DA20AD497C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65F2D8CE460EF6AD454DFBB9BB4CF77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A877084BBD9BF2A29CD127DB234261C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD98791E6109812A29258AFBB6888768 /* Pods-JL_SendDataHttpApi_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F1E483570BB00A50B805F994CC0082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD323B6B25EC4E6D0504FD3D29AC360 /* Pods-JL_SendDataHttpApi_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4A8B9AA7B91D712AE0C0FBAD217E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1FFF11C1DC81FF847D9FB541C504A /* JL_SendDataHttpApi-dummy.m in Sources */,
+				CA1512CE4FF88292A2E0E9CE9994CE18 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01E3A01332A05F01A1F00B5AA501DBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JL_SendDataHttpApi_Example";
+			target = B9C1F1180D4BAE596A6FD870CF3EFEE4 /* Pods-JL_SendDataHttpApi_Example */;
+			targetProxy = 249AF7BCDC2E99B38662E8BBE2426910 /* PBXContainerItemProxy */;
+		};
+		FEDF416A44A078F94D093CBFE3FAD727 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JL_SendDataHttpApi;
+			target = CC2E9B12A56963AA1EAD6563DC6FFFF2 /* JL_SendDataHttpApi */;
+			targetProxy = EE4A98F3ED36AD0C7D5FCF9DDC01C4F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4C9EA4367365F2C9A71B9EDEBF028B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248534138912DECCA3346B782C45A3C5 /* Pods-JL_SendDataHttpApi_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JL_SendDataHttpApi_Tests/Pods-JL_SendDataHttpApi_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JL_SendDataHttpApi_Tests/Pods-JL_SendDataHttpApi_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DB0EA3C3ECBFB01A58D5EE0E951C782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23593B681B7D13382DCA1E1EA9B0EA64 /* Pods-JL_SendDataHttpApi_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JL_SendDataHttpApi_Tests/Pods-JL_SendDataHttpApi_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JL_SendDataHttpApi_Tests/Pods-JL_SendDataHttpApi_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		836C86B826F0D87102AFAB946657DC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2964957125868FA9B395EE17F67B3F66 /* JL_SendDataHttpApi.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JL_SendDataHttpApi/JL_SendDataHttpApi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JL_SendDataHttpApi/JL_SendDataHttpApi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JL_SendDataHttpApi/JL_SendDataHttpApi.modulemap";
+				PRODUCT_MODULE_NAME = JL_SendDataHttpApi;
+				PRODUCT_NAME = JL_SendDataHttpApi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A93CE8C6132E29C59A350134A603D1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B5EA47ABA0879DDD9CB8348571A9743 /* Pods-JL_SendDataHttpApi_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JL_SendDataHttpApi_Example/Pods-JL_SendDataHttpApi_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JL_SendDataHttpApi_Example/Pods-JL_SendDataHttpApi_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFA75357C4D0130F2C37BF759E9EB049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB60EF3C6CB905B357001C001A90D2C2 /* Pods-JL_SendDataHttpApi_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JL_SendDataHttpApi_Example/Pods-JL_SendDataHttpApi_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JL_SendDataHttpApi_Example/Pods-JL_SendDataHttpApi_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9244D280A4FC7039A6ED029C834BD88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2964957125868FA9B395EE17F67B3F66 /* JL_SendDataHttpApi.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JL_SendDataHttpApi/JL_SendDataHttpApi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JL_SendDataHttpApi/JL_SendDataHttpApi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JL_SendDataHttpApi/JL_SendDataHttpApi.modulemap";
+				PRODUCT_MODULE_NAME = JL_SendDataHttpApi;
+				PRODUCT_NAME = JL_SendDataHttpApi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82112CB3EDFF81EF125B086F09A0A23D /* Build configuration list for PBXNativeTarget "Pods-JL_SendDataHttpApi_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9EA4367365F2C9A71B9EDEBF028B32 /* Debug */,
+				4DB0EA3C3ECBFB01A58D5EE0E951C782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25812C3E958FCD45659CD0A4D1101B5 /* Build configuration list for PBXNativeTarget "Pods-JL_SendDataHttpApi_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA75357C4D0130F2C37BF759E9EB049 /* Debug */,
+				A93CE8C6132E29C59A350134A603D1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71DB4422B41D21E401BE2C2D43CFD87 /* Build configuration list for PBXNativeTarget "JL_SendDataHttpApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9244D280A4FC7039A6ED029C834BD88 /* Debug */,
+				836C86B826F0D87102AFAB946657DC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

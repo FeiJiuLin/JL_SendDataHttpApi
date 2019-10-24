@@ -1,0 +1,6 @@
+framework module Pods_JL_SendDataHttpApi_Example {
+  umbrella header "Pods-JL_SendDataHttpApi_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

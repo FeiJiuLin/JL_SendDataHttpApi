@@ -1,0 +1,6 @@
+framework module JL_SendDataHttpApi {
+  umbrella header "JL_SendDataHttpApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

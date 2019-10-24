@@ -1,0 +1,16 @@
+PODS:
+  - JL_SendDataHttpApi (0.1.0)
+
+DEPENDENCIES:
+  - JL_SendDataHttpApi (from `../`)
+
+EXTERNAL SOURCES:
+  JL_SendDataHttpApi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JL_SendDataHttpApi: 5baaeccd536f710bed2597c451c7c8681944a30d
+
+PODFILE CHECKSUM: 8f645f772e753ee6ae1307e6c63112366dfe4088
+
+COCOAPODS: 1.7.5

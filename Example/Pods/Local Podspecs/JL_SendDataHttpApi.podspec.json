@@ -1,0 +1,22 @@
+{
+  "name": "JL_SendDataHttpApi",
+  "version": "0.1.0",
+  "summary": "A short description of JL_SendDataHttpApi.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/feijl/JL_SendDataHttpApi",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "feijl": "2605514380@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/feijl/JL_SendDataHttpApi.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JL_SendDataHttpApi/Classes/**/*"
+}
