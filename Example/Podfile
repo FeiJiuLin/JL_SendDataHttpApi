@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JL_SendDataHttpApi_Example' do
+  pod 'JL_SendDataHttpApi', :path => '../'
+
+  target 'JL_SendDataHttpApi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
