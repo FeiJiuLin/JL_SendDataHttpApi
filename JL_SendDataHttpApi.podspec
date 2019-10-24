@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.name         = 'JL_SendDataHttpApi'
     
     #版本号
-    s.version      = '0.0.3'
+    s.version      = '0.0.4'
     
     #许可证
     s.license      = { :type => 'MIT' }
