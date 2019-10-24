@@ -14,7 +14,6 @@
 		A0F1FFF11C1DC81FF847D9FB541C504A /* JL_SendDataHttpApi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20356FB6092E63FB7AF4F63417709F8A /* JL_SendDataHttpApi-dummy.m */; };
 		A26490CE372978365F13D375B126CD6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C126322D73C91A1ED4D721A69F256F05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CA1512CE4FF88292A2E0E9CE9994CE18 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F7E0A4AD992BCD609A5AEF606E3C5F /* ReplaceMe.m */; };
 		CD98791E6109812A29258AFBB6888768 /* Pods-JL_SendDataHttpApi_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D41A755DA7F7C32219D8B30B620538FD /* Pods-JL_SendDataHttpApi_Example-dummy.m */; };
 		E22F801A95995BFF7E8B10ACAFE85590 /* JL_SendDataHttpApi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA82EC7CAD5889493F9D2C35EF02C5F /* JL_SendDataHttpApi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -48,26 +47,25 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3DA82EC7CAD5889493F9D2C35EF02C5F /* JL_SendDataHttpApi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JL_SendDataHttpApi-umbrella.h"; sourceTree = "<group>"; };
 		4C4409963A7DC9DEA6B4838829DEDE14 /* Pods-JL_SendDataHttpApi_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JL_SendDataHttpApi_Tests-umbrella.h"; sourceTree = "<group>"; };
-		60C73E82EF505943E591C76D807D9D63 /* JL_SendDataHttpApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JL_SendDataHttpApi.framework; path = JL_SendDataHttpApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C73E82EF505943E591C76D807D9D63 /* JL_SendDataHttpApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JL_SendDataHttpApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF6209E7C30926973E28669C7AF98F3 /* Pods-JL_SendDataHttpApi_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JL_SendDataHttpApi_Example.modulemap"; sourceTree = "<group>"; };
 		77AD748043904E566C001B389F57EBF2 /* Pods-JL_SendDataHttpApi_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JL_SendDataHttpApi_Tests-Info.plist"; sourceTree = "<group>"; };
-		7B6C8A664DEE31BCA69DE25A3B5E770F /* Pods_JL_SendDataHttpApi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JL_SendDataHttpApi_Tests.framework; path = "Pods-JL_SendDataHttpApi_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6C8A664DEE31BCA69DE25A3B5E770F /* Pods_JL_SendDataHttpApi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JL_SendDataHttpApi_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		809CDCAF43943A3B091BCD2699BD226C /* Pods-JL_SendDataHttpApi_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JL_SendDataHttpApi_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		80FC3864BA1530B0FB2335398E227795 /* Pods-JL_SendDataHttpApi_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JL_SendDataHttpApi_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		858811E5D948F58561C8E2911BA2D8FD /* Pods-JL_SendDataHttpApi_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JL_SendDataHttpApi_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		96ACF43C3596A2EFE3DE3968F61B97B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		96ACF43C3596A2EFE3DE3968F61B97B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9B990B5F3A86C447A2D9C460F46411DB /* Pods-JL_SendDataHttpApi_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JL_SendDataHttpApi_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A326248F0EB04556FC9D6A1D5841C71F /* Pods-JL_SendDataHttpApi_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JL_SendDataHttpApi_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A3F7E0A4AD992BCD609A5AEF606E3C5F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JL_SendDataHttpApi/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		B22310A7E743AA1CCD39DD0FFDAFE08F /* Pods_JL_SendDataHttpApi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JL_SendDataHttpApi_Example.framework; path = "Pods-JL_SendDataHttpApi_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22310A7E743AA1CCD39DD0FFDAFE08F /* Pods_JL_SendDataHttpApi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JL_SendDataHttpApi_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0AA55A80B4AFF00056440E0F008342 /* JL_SendDataHttpApi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JL_SendDataHttpApi-Info.plist"; sourceTree = "<group>"; };
 		CCC497885EF11AC6B48CDD9D9DBC37A5 /* Pods-JL_SendDataHttpApi_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JL_SendDataHttpApi_Tests.modulemap"; sourceTree = "<group>"; };
 		D1ADF19F6D4F72A6A8108C7AC7141977 /* Pods-JL_SendDataHttpApi_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JL_SendDataHttpApi_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D41A755DA7F7C32219D8B30B620538FD /* Pods-JL_SendDataHttpApi_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JL_SendDataHttpApi_Example-dummy.m"; sourceTree = "<group>"; };
 		DB60EF3C6CB905B357001C001A90D2C2 /* Pods-JL_SendDataHttpApi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JL_SendDataHttpApi_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DC5F9694EBE0F2E6B0C29B3767FCAC3E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DE1A6672ADD86CA98753FDC63BE88054 /* JL_SendDataHttpApi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JL_SendDataHttpApi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC5F9694EBE0F2E6B0C29B3767FCAC3E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DE1A6672ADD86CA98753FDC63BE88054 /* JL_SendDataHttpApi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JL_SendDataHttpApi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F2B7F210AC0789C7E4083CF8AAE1D6BA /* JL_SendDataHttpApi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JL_SendDataHttpApi-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,7 +161,6 @@
 		5EEEB0B9B6B31A5842CD6F04BD75F23B /* JL_SendDataHttpApi */ = {
 			isa = PBXGroup;
 			children = (
-				A3F7E0A4AD992BCD609A5AEF606E3C5F /* ReplaceMe.m */,
 				536641E8B5FB14DA0C413C4042B5074F /* Pod */,
 				F494AFCEB1A7FEE885CE14B55A4A2591 /* Support Files */,
 			);
@@ -381,7 +378,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0F1FFF11C1DC81FF847D9FB541C504A /* JL_SendDataHttpApi-dummy.m in Sources */,
-				CA1512CE4FF88292A2E0E9CE9994CE18 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,8 +452,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

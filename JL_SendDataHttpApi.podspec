@@ -7,41 +7,48 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'JL_SendDataHttpApi'
-  s.version          = '0.0.1'
-  s.summary          = 'A short description of JL_SendDataHttpApi.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/feijl/JL_SendDataHttpApi'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'feijl' => '2605514380@qq.com' }
-  s.source           = { :git => 'https://github.com/feijl/JL_SendDataHttpApi.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'JL_SendDataHttpApi/Classes/DPMobileSDK.framework/Headers/*.{h}'
-  
-  s.vendored_frameworks = 'JL_SendDataHttpApi/Classes/DPMobileSDK.framework'
-
-  s.public_header_files = 'JL_SendDataHttpApi/Classes/DPMobileSDK.framework/Headers/DPMobileSDK.h'
-  
-
-  # s.resource_bundles = {
-  #   'JL_SendDataHttpApi' => ['JL_SendDataHttpApi/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    
+    #名称
+    s.name         = 'JL_SendDataHttpApi'
+    
+    #版本号
+    s.version      = '0.0.3'
+    
+    #许可证
+    s.license      = { :type => 'MIT' }
+    
+    #项目主页地址
+    s.homepage     = 'https://github.com/feijl/JL_SendDataHttpApi'
+    
+    #作者
+    s.authors      = { 'Andrew' => '2605514380@qq.com' }
+    
+    #简介
+    s.summary      = 'A delightful iOS framework.'
+    
+    #项目的地址 （注意这里的tag位置，可以自己写也可以直接用s.version，但是与s.version一定要统一）
+    s.source       = { :git => 'https://github.com/feijl/JL_SendDataHttpApi.git', :tag => s.version }
+    
+    #支持最小系统版本
+    s.platform     = :ios, '9.0'
+    
+    #需要包含的源文件
+    s.source_files = 'JL_SendDataHttpApi/Classes/DPMobileSDK.framework/Headers/*.{h}'
+    
+    #你的SDK路径
+    s.vendored_frameworks = 'JL_SendDataHttpApi/Classes/DPMobileSDK.framework'
+    
+    #SDK头文件路径
+    s.public_header_files = 'JL_SendDataHttpApi/Classes/DPMobileSDK.framework/Headers/DPMobileSDK.h'
+    
+    #依赖库
+    s.libraries    = 'sqlite3','icucore','z'
+    
+    
 end
+
+
+
+
+
+
